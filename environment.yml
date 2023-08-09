@@ -1,0 +1,17 @@
+name: drone
+channels:
+  - conda-forge
+dependencies:
+  - python>3
+  - intake
+  - intake-xarray
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - xarray
+  - zarr
+  - opencv
+  - ipykernel
+  - pip
+  - pip:
+    - opencv-python-headless
