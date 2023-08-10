@@ -1,17 +1,21 @@
 name: drone
 channels:
   - conda-forge
+  - pytorch3d
 dependencies:
   - python>3
   - intake
   - intake-xarray
+  - exiftool
   - scipy
   - scikit-learn
   - scikit-image
   - xarray
   - zarr
-  - opencv
   - ipykernel
   - pip
+  - pyproj
+  - pytorch3d
   - pip:
     - opencv-python-headless
+    - pyexiftool
