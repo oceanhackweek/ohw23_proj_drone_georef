@@ -1,7 +1,7 @@
 +proj=utm +zone=50 +south +ellps=GRS80 +units=m +no_defs
-6459629.776	394589.981	11.899 <im_x> <im_y> <image_name>
-6459648.234	394562.677	12.401 <im_x> <im_y <image_name>
-6459639.176	394571.256	12.185 <im_x> <im_y> <image_name>
-6459634.581	394559.016	12.015 <im_x> <im_y> <image_name>
-6459645.103	394578.04	12.341 <im_x> <im_y> <image_name>
+394589.981 6459629.776 11.899 <im_x> <im_y> <image_name>
+394562.677 6459648.234	12.401 <im_x> <im_y <image_name>
+394571.256 6459639.176	12.185 <im_x> <im_y> <image_name>
+394559.016 6459634.581 12.015 <im_x> <im_y> <image_name>
+394578.04 6459645.103 12.341 <im_x> <im_y> <image_name>
 
