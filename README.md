@@ -14,6 +14,8 @@ Diana Vargas Ortega,
 
 ## Background
 Using drones over the ocean makes it difficult to use structure Shallow water areas we can use structure from motion (SfM), in deeper water with waves SfM fails.
+Link to pitch slide :[ https://docs.google.com/presentation/d/1eQKSdFHNGMDqGJMY4d-yGnNm4UrUj5kIS2mLQGPMZC8/edit?usp=drive_link]
+
 
 ## Goals
 
