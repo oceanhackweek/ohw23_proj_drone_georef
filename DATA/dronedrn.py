@@ -1,8 +1,11 @@
-def main():
-    import exiftool
-    import glob
-    import pandas as pd
-    rute='/home/adolfo/ohw23_proj_drone_georef/DATA/'
+import exiftool
+import glob
+import pandas as pd
+import typer
+import os
+def main(rute: str):
+    print(f"Write the rute {rute}")
+    #rute='/home/adolfo/ohw23_proj_drone_georef/DATA/'
     files = glob.glob(f'{rute}*.JPG', recursive = True)
     files2=sorted(files, key=lambda x: (x.split('/')))
     with exiftool.ExifTool() as et:
@@ -33,8 +36,7 @@ def main():
     'XMP:CalibratedOpticalCenterX',
     'XMP:CalibratedOpticalCenterY',]
     df_metasub=df_meta[want]
-    df_metasub.to_csv('drone.csv')
+    df_metasub.to_csv(os.path.join(rute,'drone.csv'))
 
 if __name__ == "__main__":
-    main()
-
+    typer.run(main)
