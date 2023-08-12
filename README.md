@@ -18,10 +18,12 @@ Link to pitch slide :[ https://docs.google.com/presentation/d/1eQKSdFHNGMDqGJMY4
 
 
 ## Goals
+We want to estimate the projection of ground control points from drone images. 
 
 ## Datasets
 Drone survey carried out in 14 February (CSIRO Kensington)
 
 ## Workflow/Roadmap
+
 
 ## References
